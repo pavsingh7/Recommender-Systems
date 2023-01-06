@@ -39,5 +39,9 @@ There are several other types which are'n't discussed in great detail here.
 ***
 ## Notebooks
 
-1. Introduction to Recommender Systems (RecSys in Python)
+1. Collaborative Filtering Recommender Systems in R 
+
+2. Introduction to Recommender Systems in Python
+
+
 
