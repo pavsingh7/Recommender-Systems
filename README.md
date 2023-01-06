@@ -1,4 +1,4 @@
-# Recommender-Systems-in-Python
+# Recommender-Systems
 
 A series of scripts and notebooks with resources pertaining to all things RecSys. 
 
@@ -8,11 +8,19 @@ A Recommender System, or a Recommendation System, is a subclass of information f
 
 Specifically, RecSys are applied for various purposes:
 
-- 
+- E-commerce: Recommender systems are often used to recommend products to customers on e-commerce websites.
 
+- Media streaming: Recommender systems are used to recommend movies, TV shows, and music to users on streaming platforms.
 
+- Social media: Recommender systems are used to recommend content, such as articles, videos, and photos, to users on social media platforms.
 
+- Online advertising: Recommender systems can be used to personalize the advertisements that a user sees online.
 
+- Job recommendations: Some job search websites use recommender systems to recommend job openings to job seekers.
+
+- Educational recommendations: Educational platforms may use recommender systems to recommend courses or learning materials to students.
+
+Current trends in recommender systems include the use of deep learning techniques, the incorporation of contextual information (such as location or time of day), and the use of interactive interfaces that allow users to provide feedback and help improve the recommendations being made.
 
 ## Types
 
@@ -23,3 +31,13 @@ There are several different types of recommender systems:
 - Collaborative Filtering Recommenders: These systems take into account the preferences of multiple users when making recommendations. For example, if two users have both purchased a number of mystery novels and a number of science fiction books, a collaborative filtering recommender might recommend a science fiction book to one user and a mystery novel to the other user.
 
 - Hybrid Recommenders: These systems use a combination of content-based and collaborative filtering techniques to make recommendations.
+
+There are several other types which are'n't discussed in great detail here. 
+
+
+
+***
+## Notebooks
+
+1. Introduction to Recommender Systems (RecSys in Python)
+
