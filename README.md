@@ -41,7 +41,7 @@ There are several other types which are'n't discussed in great detail here.
 
 1. Collaborative Filtering Recommender Systems in R 
 
-2. Introduction to Recommender Systems in Python
+2. Collaborative Filtering Recommender Systems in Python
 
 3. 
 

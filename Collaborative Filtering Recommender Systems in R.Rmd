@@ -1,6 +1,6 @@
 ---
 title: "Recommender Systems"
-subtitle: An introduction to recommender systems in R
+subtitle: An introduction to Collaborative Filtering Recommender Systems in R 
 author: 
 - name: "Pavan Singh"
   address: Department of Statistical Sciences, University of Cape Town
