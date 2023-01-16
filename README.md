@@ -1,8 +1,8 @@
 # Recommender Systems
 
-A series of scripts and notebooks with resources pertaining to all things RecSys. 
+A series of scripts and notebooks with resources pertaining to all things RecSys (recommender system). 
 
-<img src="/img/recsys_cov.jpeg" width="600" height="200">
+<img src="/img/recsys_cov.jpeg" width="450" height="200">
 
 
 ## Recommender Systems
@@ -42,3 +42,7 @@ A python implementation of the the [first notebook](). We do not go into great d
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pavsingh7/Recommender-Systems/blob/master/recsys_cf.ipynb)
 
 
+
+# References and Resources
+
+Some of the notebooks follow the learnings of the course taken by [Ian Durbach](https://iandurbach.github.io) at the University of Cape Town. The remaining sources of information are cited appropriately within the respective notebooks. 
