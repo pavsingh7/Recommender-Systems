@@ -46,3 +46,13 @@ A python implementation of the the [first notebook](). We do not go into great d
 # References and Resources
 
 Some of the notebooks follow the learnings of the course taken by [Ian Durbach](https://iandurbach.github.io) at the University of Cape Town. The remaining sources of information are cited appropriately within the respective notebooks. 
+
+<table>
+  <tr>
+    <td>
+      <img src="/img/recsys.png" width="275" height="220">
+    </td>
+    <td>
+      <img src="/img/recsys_thumb.jpeg" width="280" height="220">
+    </td>
+</table>
