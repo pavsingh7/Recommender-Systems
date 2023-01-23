@@ -671,7 +671,7 @@ ratings_wide <- as.matrix(ratings_wide[,-1])
 row.names(ratings_wide) <- sorted_my_users
 
 # save as csv for Excel demo
-write.csv(ratings_wide,"output/ratings_for_excel_example.csv")
+write.csv(ratings_wide,"ratings_for_excel_example.csv")
 ```
 
 Note that `ratings_wide` is a matrix where each row pertains to a user and each column is a movie. The elements are the ratings provided by each user for the movie they have watched. NA is filled in for movies that the user has not watched (or perhaps given a review, but for now we shall assume every movie watched has been reviewed). 
