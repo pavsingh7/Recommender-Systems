@@ -1615,12 +1615,14 @@ following:</p>
 <p>We load required packages and the data set for this tutorial.</p>
 <pre class="r"><code># Packages
 library(tidyverse)
+library(DT)
 
 # Load data
 load(&quot;recommender.RData&quot;)</code></pre>
 <p>Let’s view the data that is contained in this R object.</p>
 <pre class="r"><code># View Movies
-head(viewed_movies, 6)</code></pre>
+#datatable(head(viewed_movies, 6))
+head(viewed_movies,6)</code></pre>
 <pre><code>## # A tibble: 6 × 21
 ##   userId 2001:…¹ Apoca…² Big L…³ Bourn…⁴ Clear…⁵ Crouc…⁶ Depar…⁷ Donni…⁸ Ferri…⁹
 ##    &lt;int&gt;   &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;
@@ -1722,8 +1724,9 @@ seen movies!) In other words, everyone’s vote counts the same.
 Collaborative filtering overcomes these inadequacies. Let’s look at the
 three CF approaches below.</p>
 </div>
-<div id="user-based-between-users" class="section level2">
-<h2>User-Based (<em>between users</em>)</h2>
+</div>
+<div id="user-based-between-users" class="section level1">
+<h1>User-Based (<em>between users</em>)</h1>
 <p>This type of CF is a way of taking a user’s interests into account by
 looking for users who are somehow similar to them, and then suggest the
 things that those users are interested in. In order to do that, we’ll
@@ -2162,11 +2165,9 @@ sort(recommendation_scores[&quot;222&quot;,], decreasing = T) %&gt;% head(5)</co
 ##                        2.710021</code></pre>
 <p>Shining again is top recommendation for user 222.</p>
 </div>
-</div>
-</div>
-<div id="k-nearest-neighbours-for-user-based-filtering" class="section level1">
-<h1><span class="math inline">\(K\)</span>-Nearest Neighbours for User
-Based Filtering</h1>
+<div id="k-nearest-neighbours-for-user-based-filtering" class="section level2">
+<h2><span class="math inline">\(K\)</span>-Nearest Neighbours for User
+Based Filtering</h2>
 <p>A variant on the above is a <em>k-nearest-neighbours</em> approach
 that bases recommendations <em>only on k most similar users</em>. This
 is faster when there are many users. We try to implement this. An
@@ -2217,8 +2218,10 @@ user_based_recommendations(user = 328, user_sim = user_similarities, viewed_mov 
 ## 6                           Clear and Present Danger (1994) 1.3115726
 ## 7                               Sleepless in Seattle (1993) 1.1282141
 ## 8                             Star Trek: Generations (1994) 0.1178511</code></pre>
-<div id="item-based-collaborative-filtering" class="section level2">
-<h2>Item-based collaborative filtering</h2>
+</div>
+</div>
+<div id="item-based-collaborative-filtering" class="section level1">
+<h1>Item-based collaborative filtering</h1>
 <p>Here, we provide an alternative approach where we compute
 similarities between interests directly. We can then generate
 suggestions for each user by aggregating interests that are similar to
@@ -2558,8 +2561,8 @@ item_based_recommendations &lt;- function(user, movie_sim, viewed_mov){
 ## 14 Star Trek: Generations (1994)                              0</code></pre>
 </div>
 </div>
-<div id="matrix-factorization" class="section level2">
-<h2>Matrix Factorization</h2>
+<div id="matrix-factorization" class="section level1">
+<h1>Matrix Factorization</h1>
 <p>Latent Matrix Factorization is an incredibly powerful method to use
 when creating a Recommender System. Ever since Latent Matrix
 Factorization was shown to outperform other recommendation methods in
@@ -3024,8 +3027,8 @@ get_predictions(user=20)</code></pre>
 ## Actual                                     NA        NA</code></pre>
 </div>
 </div>
-<div id="additional-work" class="section level2">
-<h2>Additional Work</h2>
+<div id="additional-work" class="section level1">
+<h1>Additional Work</h1>
 <p>There are a few places in the notebook where we can build upon:</p>
 <ol style="list-style-type: decimal">
 <li>Adapt the pairwise similarity function so that it doesn’t use
@@ -3039,7 +3042,6 @@ can be used with an arbitrary number of users and movies.</li>
 <li>Experiment with the optimizers used in the matrix factorization
 collaborative filter.</li>
 </ol>
-</div>
 </div>
 <div id="a-note-on-collabative-filterig" class="section level1">
 <h1>A note on Collabative Filterig</h1>
