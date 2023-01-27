@@ -1,0 +1,117 @@
+userId,movieId,rating,timestamp,title,genres
+1,349,4,964982563,Clear and Present Danger (1994),Action|Crime|Drama|Thriller
+1,1208,4,964983250,Apocalypse Now (1979),Action|Drama|War
+1,1258,3,964983414,"Shining, The (1980)",Horror
+1,1732,5,964981125,"Big Lebowski, The (1998)",Comedy|Crime
+1,2115,5,964982529,Indiana Jones and the Temple of Doom (1984),Action|Adventure|Fantasy
+1,3147,5,964983873,"Green Mile, The (1999)",Crime|Drama
+20,2,3,1054038313,Jumanji (1995),Adventure|Children|Fantasy
+20,3996,3.5,1054037208,"Crouching Tiger, Hidden Dragon (Wo hu cang long) (2000)",Action|Drama|Romance
+20,4896,4.5,1054037243,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),Adventure|Children|Fantasy
+20,5418,3,1054037279,"Bourne Identity, The (2002)",Action|Mystery|Thriller
+187,253,3.5,1161863909,Interview with the Vampire: The Vampire Chronicles (1994),Drama|Horror
+187,924,4,1161850326,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi
+187,1258,4.5,1161849677,"Shining, The (1980)",Horror
+187,1732,5,1161849502,"Big Lebowski, The (1998)",Comedy|Crime
+187,3996,3,1161850238,"Crouching Tiger, Hidden Dragon (Wo hu cang long) (2000)",Action|Drama|Romance
+187,4878,3.5,1161849216,Donnie Darko (2001),Drama|Mystery|Sci-Fi|Thriller
+187,7438,4,1161849208,Kill Bill: Vol. 2 (2004),Action|Drama|Thriller
+198,924,4,1034135489,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi
+198,1258,3,1034137298,"Shining, The (1980)",Horror
+198,1732,3,1034139066,"Big Lebowski, The (1998)",Comedy|Crime
+198,2115,3,1034207373,Indiana Jones and the Temple of Doom (1984),Action|Adventure|Fantasy
+198,3147,5,1034136190,"Green Mile, The (1999)",Crime|Drama
+198,3996,3,1034137010,"Crouching Tiger, Hidden Dragon (Wo hu cang long) (2000)",Action|Drama|Romance
+212,924,4,1523217002,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi
+212,1258,4,1490115560,"Shining, The (1980)",Horror
+212,1732,3,1490121293,"Big Lebowski, The (1998)",Comedy|Crime
+212,2918,2.5,1490121478,Ferris Bueller's Day Off (1986),Comedy
+212,4896,3.5,1523216502,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),Adventure|Children|Fantasy
+212,68954,3,1490115514,Up (2009),Adventure|Animation|Children|Drama
+222,2,2.5,1391353926,Jumanji (1995),Adventure|Children|Fantasy
+222,1208,3.5,1391350069,Apocalypse Now (1979),Action|Drama|War
+222,1732,3.5,1391350152,"Big Lebowski, The (1998)",Comedy|Crime
+222,1923,3,1391374781,There's Something About Mary (1998),Comedy|Romance
+222,7438,4,1391350241,Kill Bill: Vol. 2 (2004),Action|Drama|Thriller
+222,48516,4.5,1391350073,"Departed, The (2006)",Crime|Drama|Thriller
+222,68954,2.5,1391350228,Up (2009),Adventure|Animation|Children|Drama
+282,1208,4.5,1378490160,Apocalypse Now (1979),Action|Drama|War
+282,1258,4,1514068326,"Shining, The (1980)",Horror
+282,1732,4,1378495532,"Big Lebowski, The (1998)",Comedy|Crime
+282,2115,4,1378495009,Indiana Jones and the Temple of Doom (1984),Action|Adventure|Fantasy
+282,2918,4.5,1378497309,Ferris Bueller's Day Off (1986),Comedy
+282,3147,4,1378498731,"Green Mile, The (1999)",Crime|Drama
+282,5418,4.5,1378491740,"Bourne Identity, The (2002)",Action|Mystery|Thriller
+282,7438,3.5,1378491703,Kill Bill: Vol. 2 (2004),Action|Drama|Thriller
+282,48516,4.5,1378498161,"Departed, The (2006)",Crime|Drama|Thriller
+328,924,4,1494210622,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi
+328,1208,4,1494210389,Apocalypse Now (1979),Action|Drama|War
+328,1258,4,1494210672,"Shining, The (1980)",Horror
+328,1732,3.5,1494211891,"Big Lebowski, The (1998)",Comedy|Crime
+328,2115,4,1494210456,Indiana Jones and the Temple of Doom (1984),Action|Adventure|Fantasy
+328,2918,2,1494210534,Ferris Bueller's Day Off (1986),Comedy
+328,4878,1,1494210426,Donnie Darko (2001),Drama|Mystery|Sci-Fi|Thriller
+328,4896,4,1494212134,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),Adventure|Children|Fantasy
+328,5418,4,1494211365,"Bourne Identity, The (2002)",Action|Mystery|Thriller
+328,7438,5,1494211182,Kill Bill: Vol. 2 (2004),Action|Drama|Thriller
+328,48516,3.5,1494211017,"Departed, The (2006)",Crime|Drama|Thriller
+328,68954,4.5,1494207010,Up (2009),Adventure|Animation|Children|Drama
+330,2,1.5,1285905277,Jumanji (1995),Adventure|Children|Fantasy
+330,253,4.5,1285905179,Interview with the Vampire: The Vampire Chronicles (1994),Drama|Horror
+330,539,2,1285905146,Sleepless in Seattle (1993),Comedy|Drama|Romance
+330,924,1.5,1285905245,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi
+330,1208,2.5,1285904064,Apocalypse Now (1979),Action|Drama|War
+330,1258,4,1285903845,"Shining, The (1980)",Horror
+330,1732,5,1285905433,"Big Lebowski, The (1998)",Comedy|Crime
+330,1923,5,1285905229,There's Something About Mary (1998),Comedy|Romance
+330,2918,4,1285905299,Ferris Bueller's Day Off (1986),Comedy
+330,3147,4,1285904255,"Green Mile, The (1999)",Crime|Drama
+330,3996,4.5,1285905232,"Crouching Tiger, Hidden Dragon (Wo hu cang long) (2000)",Action|Drama|Romance
+330,4878,4.5,1285904183,Donnie Darko (2001),Drama|Mystery|Sci-Fi|Thriller
+330,4896,4.5,1285905617,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),Adventure|Children|Fantasy
+330,5418,2,1285905501,"Bourne Identity, The (2002)",Action|Mystery|Thriller
+330,7438,5,1285905565,Kill Bill: Vol. 2 (2004),Action|Drama|Thriller
+330,48516,4.5,1285904171,"Departed, The (2006)",Crime|Drama|Thriller
+372,924,2,874416443,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi
+372,1208,5,874417241,Apocalypse Now (1979),Action|Drama|War
+372,1258,4,874415560,"Shining, The (1980)",Horror
+432,2,4,1316391739,Jumanji (1995),Adventure|Children|Fantasy
+432,253,4.5,1316391617,Interview with the Vampire: The Vampire Chronicles (1994),Drama|Horror
+432,1258,3,1315244949,"Shining, The (1980)",Horror
+432,3147,4,1315244974,"Green Mile, The (1999)",Crime|Drama
+432,5418,4.5,1328232881,"Bourne Identity, The (2002)",Action|Mystery|Thriller
+432,7438,2.5,1328232790,Kill Bill: Vol. 2 (2004),Action|Drama|Thriller
+432,48516,2.5,1315244545,"Departed, The (2006)",Crime|Drama|Thriller
+432,68954,4,1328232867,Up (2009),Adventure|Animation|Children|Drama
+434,2,2.5,1271039378,Jumanji (1995),Adventure|Children|Fantasy
+434,349,3.5,1270604747,Clear and Present Danger (1994),Action|Crime|Drama|Thriller
+434,924,4.5,1270606834,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi
+434,1208,3.5,1271039077,Apocalypse Now (1979),Action|Drama|War
+434,1258,5,1270604015,"Shining, The (1980)",Horror
+434,1732,4.5,1270603981,"Big Lebowski, The (1998)",Comedy|Crime
+434,1923,3.5,1270606695,There's Something About Mary (1998),Comedy|Romance
+434,2115,4.5,1270606806,Indiana Jones and the Temple of Doom (1984),Action|Adventure|Fantasy
+434,2918,3.5,1270606579,Ferris Bueller's Day Off (1986),Comedy
+434,3147,4.5,1270606766,"Green Mile, The (1999)",Crime|Drama
+434,3996,4.5,1270604900,"Crouching Tiger, Hidden Dragon (Wo hu cang long) (2000)",Action|Drama|Romance
+434,4878,5,1270606749,Donnie Darko (2001),Drama|Mystery|Sci-Fi|Thriller
+434,4896,2.5,1270604915,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),Adventure|Children|Fantasy
+434,5418,4,1270604720,"Bourne Identity, The (2002)",Action|Mystery|Thriller
+434,7438,4.5,1270604241,Kill Bill: Vol. 2 (2004),Action|Drama|Thriller
+434,48516,5,1270603479,"Departed, The (2006)",Crime|Drama|Thriller
+434,68954,3.5,1270603974,Up (2009),Adventure|Animation|Children|Drama
+495,1208,4.5,1458635536,Apocalypse Now (1979),Action|Drama|War
+495,1732,5,1458635703,"Big Lebowski, The (1998)",Comedy|Crime
+495,2918,4.5,1458635301,Ferris Bueller's Day Off (1986),Comedy
+495,7438,5,1458635650,Kill Bill: Vol. 2 (2004),Action|Drama|Thriller
+495,48516,5,1458635279,"Departed, The (2006)",Crime|Drama|Thriller
+562,539,4.5,1368896612,Sleepless in Seattle (1993),Comedy|Drama|Romance
+562,1258,4,1368892368,"Shining, The (1980)",Horror
+562,2918,5,1368893976,Ferris Bueller's Day Off (1986),Comedy
+562,3147,4,1368893862,"Green Mile, The (1999)",Crime|Drama
+594,2,4,1109037094,Jumanji (1995),Adventure|Children|Fantasy
+594,253,0.5,1108950825,Interview with the Vampire: The Vampire Chronicles (1994),Drama|Horror
+594,329,4,1109036731,Star Trek: Generations (1994),Adventure|Drama|Sci-Fi
+594,539,5,1109036787,Sleepless in Seattle (1993),Comedy|Drama|Romance
+594,1208,3,1108798893,Apocalypse Now (1979),Action|Drama|War
+594,1923,4,1108798820,There's Something About Mary (1998),Comedy|Romance
