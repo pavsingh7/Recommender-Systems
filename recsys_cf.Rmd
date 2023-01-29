@@ -251,10 +251,11 @@ for (i in 1:14) {
   }
 }
 user_similarities <- user_similarities + t(user_similarities)
-diag(user_similarities) <- 0
-row.names(user_similarities) <- row.names(viewed_movies)
-colnames(user_similarities) <- row.names(viewed_movies)
-round(user_similarities, 3)
+user_similarities
+#diag(user_similarities) <- 0
+#row.names(user_similarities) <- row.names(viewed_movies)
+#colnames(user_similarities) <- row.names(viewed_movies)
+#round(user_similarities, 3)
 ```
 
 For the user similarity matrix, its 15 by 15, since we have 15 users in our little sample. Diagonal of matrix is 0. The rows and column names show the user. Elements of matrix indicate the similarity score between the respective users. 
@@ -503,6 +504,7 @@ movie_similarities <- movie_similarities + t(movie_similarities)
 diag(movie_similarities) <- 0
 row.names(movie_similarities) <- colnames(viewed_movies)
 colnames(movie_similarities) <- colnames(viewed_movies)
+movie_similarities
 ```
 
 We can use the result to see, for example, what movies are most similar to "Apocalypse Now":
