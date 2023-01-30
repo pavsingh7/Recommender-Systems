@@ -165,7 +165,7 @@ sort(apply(viewed_movies, 2, sum), decreasing = TRUE)[1:4]
 
 This approach has an intuitive appeal but is pretty unsophisticated (everyone gets the same recommendations, barring the filtering out of seen movies!) In other words, everyone's vote counts the same. Collaborative filtering overcomes these inadequacies. Let's look at the three CF approaches below. 
 
-# User-Based (*between users*)
+# User-Based Collaborative Filtering
 
 This type of CF is a way of taking a user’s interests into account by looking for users who are somehow similar to them, and then suggest the things that those users are interested in. In order to do that, we’ll need a way to measure how similar two users are. There are lots of different similarity measures. Here we’ll use *cosine similarity*. We’ll apply this to vectors of $0$s and $1$s, each vector representing one user’s interests. It will be 1 if the user specified the $i^{th}$ interest, and $0$ otherwise. Accordingly, “similar users” will mean “users whose interest vectors most nearly point in the same direction”. 
 
@@ -252,10 +252,10 @@ for (i in 1:14) {
 }
 user_similarities <- user_similarities + t(user_similarities)
 user_similarities
-#diag(user_similarities) <- 0
-#row.names(user_similarities) <- row.names(viewed_movies)
-#colnames(user_similarities) <- row.names(viewed_movies)
-#round(user_similarities, 3)
+diag(user_similarities) <- 0
+row.names(user_similarities) <- row.names(viewed_movies)
+colnames(user_similarities) <- row.names(viewed_movies)
+round(user_similarities, 3)
 ```
 
 For the user similarity matrix, its 15 by 15, since we have 15 users in our little sample. Diagonal of matrix is 0. The rows and column names show the user. Elements of matrix indicate the similarity score between the respective users. 
@@ -467,7 +467,7 @@ user_based_recommendations(user = 328, user_sim = user_similarities, viewed_mov 
 ```
 
 
-# Item-based collaborative filtering
+# Item-Based Collaborative Filtering
 
 Here, we provide an alternative approach where we compute similarities between interests directly. We can then generate suggestions for each user by aggregating interests that are similar to her current interests.
 
