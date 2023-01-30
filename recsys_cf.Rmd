@@ -646,9 +646,9 @@ lapply(sorted_my_users, item_based_recommendations, movie_similarities, viewed_m
 
 Latent Matrix Factorization is an incredibly powerful method to use when creating a Recommender System. Ever since Latent Matrix Factorization was shown to outperform other recommendation methods in the Netflix Recommendation contest, its been a cornerstone in building Recommender Systems. 
 
-**Latent Matrix Factorization is an algorithm tackling the Recommendation Problem**: Given a set of m users and n items, and set of ratings from user for some items, try to recommend the top items for each user
+**Latent Matrix Factorization is an algorithm tackling the Recommendation Problem**: Given a set of $m$ users and $n$ items, and set of ratings from user for some items, try to recommend the top items for each user.
 
-So far  we have seen that we can represent our users’ preferences as a matrix of 0s and 1s, where the 1s represent "liked" items and the 0s "unliked" items. Sometimes we might actually have numeric ratings; for example, when you write an Amazon review you assign the item a score ranging from 1 to 5 stars. You could still represent these by numbers in a matrix (ignoring for now the problem of what to do about unrated items).
+So far we have seen that we can represent our users’ preferences as a matrix of 0s and 1s, where the 1s represent "liked" items and the 0s "unliked" items. Sometimes we might actually have numeric ratings; for example, when you write an Amazon review you assign the item a score ranging from 1 to 5 stars. You could still represent these by numbers in a matrix (ignoring for now the problem of what to do about unrated items).
 
 In this section we’ll assume we have such ratings data and try to learn a model that can predict the rating for a given user and item.
 
