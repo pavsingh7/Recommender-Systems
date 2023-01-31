@@ -29,13 +29,13 @@ There are several different types of recommender systems. Three popular framewor
 ***
 # Notebooks
 
-## [Collaborative Filtering Recommender Systems in R]()
+## [Collaborative Filtering Recommender Systems in R](https://github.com/pavsingh7/Recommender-Systems/blob/main/recsys_cf.rmd)
 
 We introduce collaborative filtering for recommender systems. We slowly explain each method in CF - user-based and item-based collaborative filtering. We provide practical examples to get familiar with how the  methods work.
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pavsingh7/Recommender-Systems/blob/master/recsys_cf.Rmd)
 
-## [Collaborative Filtering Recommender Systems in Python]()
+## [Collaborative Filtering Recommender Systems in Python](https://github.com/pavsingh7/Recommender-Systems/blob/main/recsys_cf.ipynb)
 
 A python implementation of the the [first notebook](). We do not go into great detail about how the methods work, as this is assumed knowledge. The details and explanations are found in the first notebook.
 
