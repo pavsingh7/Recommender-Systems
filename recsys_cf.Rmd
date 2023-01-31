@@ -701,6 +701,10 @@ recommender_accuracy <- function(x, observed_ratings){
   
   sqrt(mean(errors[!is.na(observed_ratings)]))   # only use rated movies
 }
+
+# see if Function works
+recommender_accuracy(x=runif(175), ratings_wide)
+
 ```
 
 We note that this function isn't general, because it refers specifically to a ratings matrix with 15 users, 20 movies, and 5 latent factors.
