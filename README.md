@@ -1,5 +1,7 @@
 # Recommender Systems
 
+> used to predict the "rating" or "preference" that a user would give to an item
+
 A series of scripts and notebooks with resources pertaining to all things RecSys (recommender system). 
 
 <img src="/img/recsys_cov.jpeg" width="450" height="200">
@@ -15,9 +17,21 @@ We introduce collaborative filtering for recommender systems. We slowly explain 
 
 ## [Collaborative Filtering Recommender Systems in Python](https://github.com/pavsingh7/Recommender-Systems/blob/main/recsys_cf.ipynb)
 
-A python implementation of the the [first notebook](). We do not go into great detail about how the methods work, as this is assumed knowledge. The details and explanations are found in the first notebook.
+A python implementation of the the [first notebook](https://github.com/pavsingh7/Recommender-Systems/blob/main/recsys_cf.rmd). We do not go into great detail about how the methods work, as this is assumed knowledge. The details and explanations are found in the first notebook.
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pavsingh7/Recommender-Systems/blob/master/recsys_cf.ipynb)
+
+
+## [Content Based Filtering Recommender Systems](https://github.com/pavsingh7/Recommender-Systems/blob/main/recsys_cb.ipynb)
+
+A python implementation of the content based approach for recommender systems. The notebook also covers details and explanations for the code.
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pavsingh7/Recommender-Systems/blob/master/recsys_cb.ipynb)
+
+
+## [Hybrid Recommender Systems](https://github.com/pavsingh7/Recommender-Systems/blob/main/recsys_cb.ipynb)
+
+We look at ways in which we can combine two different recommender systems approaches to generate more comprehensive models with improved accuracy.
 
 ***
 ## Recommender Systems
