@@ -9,24 +9,24 @@ A series of scripts and notebooks with resources pertaining to all things RecSys
 ***
 # Notebooks
 
-## [Collaborative Filtering Recommender Systems in R](https://github.com/pavsingh7/Recommender-Systems/blob/main/recsys_cf.rmd)
+## [Collaborative Filtering Recommender Systems in R](https://github.com/pavsingh7/Recommender-Systems/blob/main/Collaborative%20Filtering/recsys_cf.Rmd)
 
 We introduce collaborative filtering for recommender systems. We slowly explain each method in CF - user-based and item-based collaborative filtering. We provide practical examples to get familiar with how the  methods work.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pavsingh7/Recommender-Systems/blob/master/recsys_cf.Rmd)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pavsingh7/Recommender-Systems/blob/master/Collaborative%20Filtering/recsys_cf.Rmd)
 
-## [Collaborative Filtering Recommender Systems in Python](https://github.com/pavsingh7/Recommender-Systems/blob/main/recsys_cf.ipynb)
+## [Collaborative Filtering Recommender Systems in Python](https://github.com/pavsingh7/Recommender-Systems/blob/main/Collaborative%20Filtering/recsys_cf.ipynb)
 
 A python implementation of the the [first notebook](https://github.com/pavsingh7/Recommender-Systems/blob/main/recsys_cf.rmd). We do not go into great detail about how the methods work, as this is assumed knowledge. The details and explanations are found in the first notebook.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pavsingh7/Recommender-Systems/blob/master/recsys_cf.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pavsingh7/Recommender-Systems/blob/master/Collaborative%20Filtering/recsys_cf.ipynb)
 
 
-## [Content Based Filtering Recommender Systems](https://github.com/pavsingh7/Recommender-Systems/blob/main/recsys_cb.ipynb)
+## [Content Based Filtering Recommender Systems](https://github.com/pavsingh7/Recommender-Systems/blob/main/Content%20Based%20Filtering/recsys_cb.ipynb)
 
 A python implementation of the content based approach for recommender systems. The notebook also covers details and explanations for the code.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pavsingh7/Recommender-Systems/blob/master/recsys_cb.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pavsingh7/Recommender-Systems/blob/master/Content%20Based%20Filtering/recsys_cb.ipynb)
 
 
 ## [Hybrid Recommender Systems](https://github.com/pavsingh7/Recommender-Systems/blob/main/recsys_cb.ipynb)
@@ -56,7 +56,7 @@ There are several different types of recommender systems. Three popular framewor
 ***
 # References and Resources
 
-Some of the notebooks follow the learnings of the course taken by [Ian Durbach](https://iandurbach.github.io) at the University of Cape Town. The remaining sources of information are cited appropriately within the respective notebooks. 
+The introductory notebooks for collaborative filtering follow the learnings of the course taken by [Ian Durbach](https://iandurbach.github.io) at the University of Cape Town. The remaining sources of information are cited appropriately within the respective notebooks. 
 
 <table>
   <tr>
