@@ -3,6 +3,8 @@
         "acousticness",
         "danceability",
         "dataframe",
-        "medoids"
+        "instrumentalness",
+        "medoids",
+        "speechiness"
     ]
 }
