@@ -33,6 +33,13 @@ A python implementation of the content based approach for recommender systems. T
 
 We look at ways in which we can combine two different recommender systems approaches to generate more comprehensive models with improved accuracy.
 
+## [Music Album Content Based Recommender System](https://github.com/pavsingh7/Recommender-Systems/blob/main/Content%20Based%20Filtering/spotify_albums.ipynb)
+
+We apply a variety of different content based filtering models to generate a recommender system which can account for and look for similarity between musical characteristics of albums such as acousticness and energy as well as text data like genre and album descriptions. 
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/pavsingh7/Recommender-Systems/blob/main/Content%20Based%20Filtering/spotify_albums.ipynb)
+
+
 ***
 ## Recommender Systems
 
