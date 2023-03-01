@@ -41,6 +41,20 @@ We apply a variety of different content based filtering models to generate a rec
 
 
 ***
+# Projects in Development (*Coming Soon*)
+
+## Amazon Software Products Recommendation
+
+This project is almost done. It includes the application of collaborative filtering and content based filtering (separately) to recommend software products to users. Specifically, we apply NMF and NCF approaches as well as content based filtering using a document term matrix to use text data to recommend software products. Moreover, we also include sentiment analysis to generate additional feature to help recommend products.
+
+The data set is from the [Amazon Software](https://jmcauley.ucsd.edu/data/amazon/) data set. The data set contains reviews of software products from Amazon. 
+
+
+## Fashion Recommendation System using Image Recognition
+
+The idea is to use a fashion data set, for example the DeepFashion dataset, to train a CNN model that can recognize fashion items. The model will then be used to recommend similar fashion items to the user. 
+
+***
 ## Recommender Systems
 
 A Recommender System, is a subclass of information filtering system that seeks to predict the "rating" or "preference" a user would give to an item. Recommender systems are utilized in a variety of areas, but are most commonly recognized as playlist generators for video and music services, product recommenders for online stores, or content recommenders for social media platforms.
