@@ -54,6 +54,8 @@ The data set is from the [Amazon Software](https://jmcauley.ucsd.edu/data/amazon
 
 The idea is to use a fashion data set, for example the DeepFashion dataset, to train a CNN model that can recognize fashion items. The model will then be used to recommend similar fashion items to the user. 
 
+The data can be found [here](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small). Work is based off and inspired by this repository [here](https://github.com/sonu275981/Fashion-Recommender-system)
+
 ***
 ## Recommender Systems
 
