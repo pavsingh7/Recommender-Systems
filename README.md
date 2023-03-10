@@ -2,7 +2,7 @@
 
 > used to predict the "rating" or "preference" that a user would give to an item
 
-A series of scripts and notebooks with resources pertaining to all things RecSys (recommender system). 
+A series of scripts and notebooks with resources pertaining to all things RecSys (recommender system).
 
 <img src="/img/recsys_cov.jpeg" width="450" height="200">
 
@@ -55,6 +55,13 @@ The data set is from the [Amazon Software](https://jmcauley.ucsd.edu/data/amazon
 The idea is to use a fashion data set, for example the DeepFashion dataset, to train a CNN model that can recognize fashion items. The model will then be used to recommend similar fashion items to the user. 
 
 The data can be found [here](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small). Work is based off and inspired by this repository [here](https://github.com/sonu275981/Fashion-Recommender-system)
+
+
+
+## Hybrid Multi-Modal Recommender System using Neural Architectures
+
+This project looks at building a hybrid recommender system which encompasses a neural collaborative filtering approach and Word2Vec content based filtering approach using text reviews and user ratings data. The dataset chosen is the Amazon Product Reviews dataset.  
+
 
 ***
 ## Recommender Systems
